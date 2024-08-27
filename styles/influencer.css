@@ -1,0 +1,206 @@
+/* header Section related styles */
+.header-container {
+    max-width: 1200px;
+    margin: 28px auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: var(--title-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-area {
+    display: flex;
+    gap: 34px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 34px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--title-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-icons {
+    align-items: center;
+}
+
+.icon-button img {
+    width: 28px;
+    height: 28px;
+}
+
+.icon-button-2 img {
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+}
+
+/* Hero section related styles */
+.hero-container {
+    margin: 58px auto;
+    display: flex;
+    gap: 128px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    color: var(--title-color);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+
+.hero-desc {
+    color: var(--desc-color);
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.btn-primary {
+    display: flex;
+    gap: 8px;
+    color: var(--simple-color);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: var(--brand-color);
+    border-radius: 50px;
+    padding: 12px 24px;
+}
+
+/* Main related styles */
+/* feature company related styles */
+.main-container {
+    max-width: 1200px;
+    margin: 52px auto;
+}
+
+
+.feature-company {
+    display: flex;
+    border: 2px solid #C0CCDA;
+    border-right: none;
+    border-left: none;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Collection section related styles */
+.collection-container {
+    max-width: 1030px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-title {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-top: 68px;
+    margin-bottom: 28px;
+}
+
+.collection-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+
+}
+
+.collection-item {
+    max-width: 300px;
+    padding: 18px 16px;
+    border-radius: 5px;
+    background-color: var(--simple-color);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.collection-item-title {
+    color: var(--title-color);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.collection-item_price {
+    color: var(--title-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 8px;
+}
+
+.collection-rating {
+    display: flex;
+    gap: 8px;
+    /* align-items: center; */
+}
+
+.rating-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.rating-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.collection-rating .number-of-rating {
+    color: var(--desc-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+}
+
+.desc-text {
+    margin-top: 8px;
+}
+
+.collection-desc {
+    color: var(--desc-color);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 156%;
+    letter-spacing: 0.252px;
+}
